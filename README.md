@@ -20,6 +20,6 @@ This project is used for automated deployment of VPC, EC2 in AWS using Terraform
 5. `terraform init`
 6. `terraform plan`
 7. `terraform apply`
-8. Use the output value (IPv4 address) into your browser http://<IP address>
+8. Use the output value (IPv4 address) into your browser http://**IP address**
 9. Follow on screen instructions
 10. Congrats!
