@@ -9,6 +9,7 @@ This project is used for automated deployment of VPC, EC2 in AWS using Terraform
 * Terraform v1.3.3
 * Ansible v2.12.10
 * Destination OS Ubuntu v18+
+* AWS account
 
 ## HOW-To
 
