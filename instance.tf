@@ -12,6 +12,6 @@ resource "aws_instance" "alex-instance" {
     Name = "alex-intance"
   }
   provisioner "local-exec" {
-    command = "sleep 20; ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -u ubuntu --private-key ~/.ssh/id_rsa -i '${aws_instance.alex-instance.public_ip},' ./ansible/play.yaml"
+    command = "sleep 40; ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -u ubuntu --private-key ~/.ssh/id_rsa -i '${aws_instance.alex-instance.public_ip},' ./ansible/play.yaml"
   }
 }
